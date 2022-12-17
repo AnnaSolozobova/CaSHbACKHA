@@ -9,9 +9,9 @@ public class CashbackHackServiceTest {
 
     @Test
     public void shouldBelowLimit() {
-        int amount = 800;
+        int amount = 900;
         int actual = service.remain(amount);
-        int expected = 200;
+        int expected = 100;
         assertEquals(expected, actual);
     }
 
